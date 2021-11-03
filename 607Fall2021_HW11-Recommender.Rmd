@@ -1,0 +1,72 @@
+---
+title: "Spotify Recommendation System-Mark Schmalfeld"
+output:
+  pdf_document: default
+  html_document:
+    code_folding: show
+    theme:
+      bg: '#202123'
+      fg: '#B8BCC2'
+      primary: '#EA80FC'
+      base_font:
+        google: Prompt
+      heading_font:
+        google: Proza Libre
+      version: 3
+---
+#
+Spotify as a music service
+
+
+
+
+Spotify is a highly popular subscription music service to allow listening to music across a wide range of styles, cultures and genres.  The focus tends to be on the more popular or modern music but there is a very wide ranges of other music styles to include:  exercise music, EDM, western and eastern classical music (all forms early music, baroque, symphony, opera), dance, jazz, various cultural music ( for example African drums or various Indian drums music or traditional Chinese music) and then a large amount of different modern popular music styles.
+
+##
+ Spotify has a recommender system setup in the system to support expanding your exposure to the music.
+
+## Scenario Analysis: Who are Spotify's target users?
+
+Spotify’s target users are a broad group of those who listen to music with a major group the more modern popular music listeners.  The target music supplier is not only the well known musicians but also independent musicians who cannot afford major contract deals but want to be able to publish / gain exposure to one or two musical creations that they can build on.   
+
+
+The service targets those who are willing to pay for a monthly service /subscription service fee.  Additionally, it is for those who desire to listen to a variety of music without out having to purchase the music itself as was originally established in other services.  The additional service offered is a wide variety of podcasts are supplied on Spotify.
+
+
+If you want to listen to a lot of music, desire more choice in musical styles and desire to have access to a very large collection of music then you are a Spotify user. Additionally if you are interested in sharing your music play list you are a Spotify target user.  If you listen to podcasts and a variety of podcasts you are a target user.
+ What are the goals of Spotify's target users?
+The goals of Spotify user is to purchase a subscription that allows the largest choice of music options yet also allows creation of playlists, recommendations of others playlists and best sellers.  Also the target for some is to be able to share those play lists with others. 
+ 
+ ##How does the Spotify site allow users to reach their goals?
+
+ 
+ Spotify provides a site to bring together artists ( with artists pages, concerts dates, top albums) and fans or listeners of the music.  This effectively matches the artists as sellers through Spotify with buyers or customers of the music.   The inventory is the specific number and diversity of the musical catalog in Spotify. (and podcasts)
+
+
+ Spotify recommender system
+The Spotify recommender system has several parts to how this system works.
+
+1. The system uses your listening habits as a primary driver in the recommender system. This seems to be the largest input into how Spotify creates recommendations. 
+2.  Additionally, Spotify aggregates your listening habits with others and creates - or makes "best seller" lists based on the number of people listening to specific songs, artists and mixes.  This is generally focused on major category aggregation which creates top US, top USA rock, top USA Disco, etc.   These play lists are provided as options for the user to select based on his primary listen habits (or this seems to be main driver.
+3. New songs or albums are recommended based on what you listen to - and based on who you follow (what artists and what other users you follow).
+4. Spotify also attempts to expand your options by making recommendations that are your daily top new songs, and songs that are new or slightly different than you usually listen to.
+5. Finally, it is very sticky to #1 (ie what you listen to the most). You get your repeat songs, your top yearly songs , etc.  But this also makes it very hard to change or look more broadly.  When I tried to get it to look from pop music to classical symphony to baroque to jazz to opera to EMD to exercise music - it was very hard to get it to move at all.
+ 
+
+## Recommendations to me based on my approach to using the system or force using the system:
+
+
+The majority of my music is split between music for workouts or running and jazz / classical. It still has the tendency to stick with the workout music style because I listen to this more when it provides recommendations.  The recommendation algorithm is most likely driven by the specific songs/music you listen to frequently.  It is very specific to artist / song as even an artist deviation in a genre is slower than recommending new songs by the same artist.  The system is very sticky in recommending what you have as an aggregate count or number of times you have listened to the same song or the same genre.  A broader mix of music styles seems to get weaker recommendations but still works as I tried to push it to recommend different genres of music. 
+Additionally, it aggregates your listening with others to create best seller lists which are then provided to you as options.   The collection process and recommendation process seems pretty simple in approach but is very large to accommodate a huge customer base, unique listening preferences and then to provide a group recommended play lists based on your historic listening style and your aggregated listening style.
+
+ 
+
+## Recommendations
+
+The site does not have a method to set preferences directly.  You set you preferences by listening to the music, creating your own library, following artists and by following others.   I think it works well when you have a set of preferences established but when you decide to look more broadly you find it is hard to get the system to move to look for something different.  If you had a bit more of a method to establish different music preferences to search on the system it could improve the results but is likely difficult to implement across a large customer base. 
+ Recommendations on Spotify are of mixed value to me.  I find searching for people who create unique or interesting playlists to be of greater value than to follow or use the new recommendations from Spotify.  
+
+### R Markdown
+
+
+#
